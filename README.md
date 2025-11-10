@@ -1,28 +1,34 @@
-# PowerLoom Backend
+# 🧵 Powerloom Management System - Backend
 
-This is the backend of the PowerLoom application built with Node.js, Express, MongoDB, and Socket.IO. It handles authentication, product management, orders, looms, analytics, file uploads, and real-time communication.
+The **Powerloom Backend** is a robust, RESTful API built using **Node.js**, **Express.js**, and **MongoDB Atlas**.  
+It manages all core business logic, including **authentication**, **loom operations**, **product and order management**, and **data analytics**, while supporting **real-time updates** through **Socket.IO**.
 
-## Features
-- User authentication (Admin & Regular Users)
-- Product CRUD operations
-- Order management
-- Loom tracking and real-time updates with Socket.IO
-- Analytics endpoints
-- File upload support
-- Admin dashboard APIs
+---
 
-## Technologies
-- Node.js
-- Express
-- MongoDB Atlas
-- Mongoose
-- Socket.IO
-- dotenv
-- cors
+## 🚀 Features
 
-## Setup & Installation
+- 🔐 **User Authentication & Authorization** (JWT)
+- 🧶 **Loom Management** — Track and update loom machine data
+- 📦 **Product Management** — CRUD operations for inventory
+- 🧾 **Order Processing** — Manage and monitor order statuses
+- 📊 **Analytics Dashboard** — Generate reports and production statistics
+- ⚡ **Real-time Updates** — Powered by Socket.IO
+- 🌐 **Cloud Database** — Hosted on MongoDB Atlas
+- 🧩 **CORS-Enabled REST API** for seamless frontend integration
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/dhanyasri612/powerloom-backend.git
-cd powerloom-backend
+---
+
+## 🏗️ Tech Stack
+
+| Technology | Description |
+|-------------|-------------|
+| **Node.js** | Runtime environment |
+| **Express.js** | Backend framework |
+| **MongoDB Atlas** | NoSQL cloud database |
+| **Socket.IO** | Real-time communication |
+| **JWT** | Secure token-based authentication |
+| **Render** | Backend deployment platform |
+
+---
+
+## 📂 Project Structure

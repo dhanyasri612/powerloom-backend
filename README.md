@@ -31,4 +31,21 @@ It manages all core business logic, including **authentication**, **loom operati
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Environment Configuration
+
+Create a `.env` file in the root directory and include:
+
+env
+MONGO_URI=your-mongodb-atlas-uri
+JWT_SECRET=your-secret-key
+PORT=5000
+
+
+---
+
+git clone https://github.com/yourusername/powerloom-backend.git
+cd powerloom-backend
+npm install
+npm start
+http://localhost:5000
+

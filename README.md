@@ -1,20 +1,20 @@
 # 🧵 Powerloom Management System - Backend
 
-The **Powerloom Backend** is a robust, RESTful API built using **Node.js**, **Express.js**, and **MongoDB Atlas**.  
-It manages all core business logic, including **authentication**, **loom operations**, **product and order management**, and **data analytics**, while supporting **real-time updates** through **Socket.IO**.
+The **Powerloom Backend** is a robust RESTful API built with **Node.js**, **Express.js**, and **MongoDB Atlas**.  
+It powers the entire Powerloom platform, handling **authentication**, **loom management**, **product and order operations**, **analytics**, and **real-time updates** via **Socket.IO**.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 **User Authentication & Authorization** (JWT)
-- 🧶 **Loom Management** — Track and update loom machine data
-- 📦 **Product Management** — CRUD operations for inventory
-- 🧾 **Order Processing** — Manage and monitor order statuses
-- 📊 **Analytics Dashboard** — Generate reports and production statistics
-- ⚡ **Real-time Updates** — Powered by Socket.IO
-- 🌐 **Cloud Database** — Hosted on MongoDB Atlas
-- 🧩 **CORS-Enabled REST API** for seamless frontend integration
+- 🔐 **Authentication & Authorization** – Secure login using JWT tokens  
+- 🧶 **Loom Management** – Track and control loom machine data  
+- 📦 **Product Management** – CRUD operations for product inventory  
+- 🧾 **Order Processing** – Manage and monitor order workflows  
+- 📊 **Analytics Dashboard** – Generate performance and usage reports  
+- ⚡ **Real-time Communication** – Socket.IO for live loom data updates  
+- ☁️ **MongoDB Atlas Integration** – Reliable, scalable cloud database  
+- 🔄 **CORS-Enabled API** – Ready for React/Vercel frontend integration  
 
 ---
 
@@ -22,30 +22,20 @@ It manages all core business logic, including **authentication**, **loom operati
 
 | Technology | Description |
 |-------------|-------------|
-| **Node.js** | Runtime environment |
-| **Express.js** | Backend framework |
-| **MongoDB Atlas** | NoSQL cloud database |
-| **Socket.IO** | Real-time communication |
-| **JWT** | Secure token-based authentication |
-| **Render** | Backend deployment platform |
+| **Node.js** | JavaScript runtime environment |
+| **Express.js** | Web application framework |
+| **MongoDB Atlas** | NoSQL database (Cloud-hosted) |
+| **Socket.IO** | Real-time bidirectional communication |
+| **JWT** | Secure user authentication |
+| **Render** | Cloud hosting for backend services |
 
 ---
 
 ## ⚙️ Environment Configuration
 
-Create a `.env` file in the root directory and include:
+Create a `.env` file in the project root with the following keys:
 
-env
-MONGO_URI=your-mongodb-atlas-uri
+```env
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/powerloom
 JWT_SECRET=your-secret-key
 PORT=5000
-
-
----
-
-git clone https://github.com/yourusername/powerloom-backend.git
-cd powerloom-backend
-npm install
-npm start
-http://localhost:5000
-

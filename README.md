@@ -30,12 +30,3 @@ It powers the entire Powerloom platform, handling **authentication**, **loom man
 | **Render** | Cloud hosting for backend services |
 
 ---
-
-## ⚙️ Environment Configuration
-
-Create a `.env` file in the project root with the following keys:
-
-```env
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/powerloom
-JWT_SECRET=your-secret-key
-PORT=5000
